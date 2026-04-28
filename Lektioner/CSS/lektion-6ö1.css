@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.main{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+background-color: olive;
+height: 100px;
+padding: 0px;
+margin: 0px;
+border: solid;
+border-width: 2px;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}

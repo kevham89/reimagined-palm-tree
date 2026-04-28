@@ -73,7 +73,7 @@ ul{
 li{
     float: left;
     margin: 0px;
-    padding: 16px 16px;
+    padding: 16px;
 }
 li:last-child{
     float: right;
