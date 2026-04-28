@@ -1,6 +1,8 @@
 .header {
 color: blue;
 text-align: center;
+justify-content: center;
+text-align: center;
 }
 .text {
 font-size: 18px;
