@@ -1,0 +1,43 @@
+.column{
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (min-width:901px) {
+    .column{
+        width: 25%;
+        float: left;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+    .column{
+        width: 50%;
+        float: left;
+        font-size: 40px;
+    }
+    .large{
+        visibility: hidden;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .column{
+        width: 100%;
+        float: none;
+        font-size: 50px;
+    }
+        .medium{
+        visibility: hidden;
+    }
+        .large{
+        visibility: hidden;
+    }
+}

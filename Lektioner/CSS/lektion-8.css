@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: gray;
+    border-style: solid;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.container div{
+padding: 10px;
+background-color: blue;
+text-align: center;
+overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+}
+.nav{
+    background-color: lightgreen;
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    background-color: lightcoral;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+@media  screen and (max-width: 700px) {
+    .container div{
+background-color: green;
+}
+h1{
+    font-size: 40px;
+}
+}
+
+@media  screen and (max-width: 600px) {
+    .container div{
+background-color: yellow;
+}
+h1{
+    font-size: 30px;
+}
+}
+
+@media  screen and (max-width: 500px) {
+    .container div{
+background-color: red;
+}
+h1{
+    font-size: 20px;
+}
+.nav{
+    padding: 0px;
+}
+.nav a{
+    overflow: hidden;
+    display: block;
+    float: none;
+    width: 100%;
+}
+}

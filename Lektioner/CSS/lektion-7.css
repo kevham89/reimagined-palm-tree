@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #2496f3;
+    gap: 25px 50px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+.container div{
+    background-color: #d3eafd;
+    border-style: solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.container .item1{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.container .item3{
+    background-color: orangered;
+    
+}

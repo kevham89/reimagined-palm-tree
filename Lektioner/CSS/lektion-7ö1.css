@@ -1,0 +1,20 @@
+.container{
+    background-color: darkolivegreen;
+    display: grid;
+    grid-template-columns: 200px 200px 200px auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
+    border-style: solid;
+    padding: 5px;
+}
+.container div{
+    background-color: rgb(180, 161, 120);
+    text-align: center;
+    border-style: solid;
+}
+.container .item1{
+grid-column: 1 / span 3;
+}
+.container .item3{
+grid-row: 2 / span 3;
+}
