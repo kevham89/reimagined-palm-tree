@@ -1,6 +1,7 @@
 .flex-container{
     display: flex;
-    flex-flow: row wrap;
+    align-items: center;
+    height: 200px;
     background-color: chartreuse;
     border: 5px solid black;
     font-size: 70px;
