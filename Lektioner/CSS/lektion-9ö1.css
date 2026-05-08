@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: chartreuse;
+    border: 5px solid black;
+    font-size: 70px;
+    padding: 5px;
+}
+.flex-container div{
+    padding: 30px;
+    background-color: brown;
+    border: 5px solid rgb(251, 251, 251);
+}
