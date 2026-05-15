@@ -1,0 +1,51 @@
+div{
+    background-color: lightblue;
+    border: solid 1px black;
+    padding: 10px;
+}
+div:hover{
+    background-color: lightcoral;
+}
+.div3{
+    float: right;
+}
+
+.div5{
+    float: left;
+}
+.div6{
+    clear: left;
+}
+
+.div7{
+    float: right;
+}
+.div8{
+    clear: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.div9, .div10{
+    flex: 1;
+    margin: 10px;
+}
+
+.imagecontainer1{
+
+}
+.imagecontainer2{
+    overflow: auto;
+}
+.img1{
+}
+.img2{
+    float: right;
+}
