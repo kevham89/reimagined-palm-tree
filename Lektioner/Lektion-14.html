@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/lektion-14.css">
+</head>
+<body>
+    <div class="div1">Det här är en div</div>
+    <div id="id1" class="div2">Det här är en div</div>
+    <button type="button" onclick='document.getElementById("id1").innerHTML = "klick klick"'>Knapp1</button>
+    <button type="button" onclick='document.getElementById("img1").src ="images/bild1.webp"'>Knapp2</button>
+    <button type="button" onclick="showClick(event)">Knapp3</button>
+    <br>
+    <br>
+    <h1>Klicka inte på knapp2</h1>
+    <br>
+    <img height="300" id="img1" src="images/bild1.jpg">
+
+
+<script>
+function showClick(e) {
+  const popup = document.createElement("div");
+  popup.textContent = "click";
+  popup.style.cssText = `
+    position: fixed;
+    left: ${e.clientX}px;
+    top: ${e.clientY}px;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: bold;
+    pointer-events: none;
+    transition: opacity 0.5s;
+    opacity: 1;
+  `;
+  document.body.appendChild(popup);
+
+  // Fade out
+  requestAnimationFrame(() => {
+    popup.style.opacity = "0";
+  });
+
+  // Remove from DOM after fade
+  setTimeout(() => popup.remove(), 500);
+}
+</script>
+
+
+
+</body>
+</html>

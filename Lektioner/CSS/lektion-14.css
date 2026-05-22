@@ -1,0 +1,28 @@
+:root{
+    --bgc: #0a542b;
+    --bgc2: #7700ff;
+    --bgc3: #aaca36;
+    --fc: #ffffff;
+    --pm: 10px;
+    --bc: #000000 dotted var(--pm);
+}
+
+body{
+    background-color: var(--bgc3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div1{
+    background-color: var(--bgc);
+    color: var(--fc);
+    margin: var(--pm);
+    padding: var(--pm);
+    border: var(--bc);
+}
+.div2{
+    --bgc: var(--bgc2);
+    background-color: var(--bgc);
+    color: var(--fc);
+    margin: var(--pm);
+    padding: var(--pm);
+    border: var(--bc);
+}
